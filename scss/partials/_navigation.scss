@@ -1,0 +1,21 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 864px;
+    width: 864px;
+
+    &__links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
