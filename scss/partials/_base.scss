@@ -11,14 +11,21 @@ body {
 
 .main {
     max-width: 864px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
 }
 
 .image {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
     margin: 25px 25px 0px 25px;
 
     img {
         max-width: 100%;
         height: auto;
-        margin: 0;
     }
 }
