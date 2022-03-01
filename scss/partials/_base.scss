@@ -6,13 +6,19 @@ body {
     color: white;
     background-color: black;
     margin: 0;
+    height: auto;
+}
+
+.main {
+    max-width: 864px;
 }
 
 .image {
-    margin: 25px;
+    margin: 25px 25px 0px 25px;
 
     img {
         max-width: 100%;
         height: auto;
+        margin: 0;
     }
 }
